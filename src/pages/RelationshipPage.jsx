@@ -21,7 +21,7 @@ export default function RelationshipPage() {
           <div className="col-md-12">
             <h1>What is your relationship with the person 🧡?</h1>
 
-            <div onChange={handleOnChange} style={{ fontSize: "2rem" }}>
+            <div style={{ fontSize: "2rem" }}>
               <RadioButton label="Parent 👩‍👦" value={value} onChange={handleOnChange} id={"a"} name={selectorName} />
 
               <RadioButton label="Sibling 👩‍👩‍👦‍👦" value={value} onChange={handleOnChange} id={"b"} name={selectorName} />

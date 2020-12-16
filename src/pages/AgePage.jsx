@@ -21,7 +21,7 @@ export default function AgePage() {
           <div className="col-md-12">
             <h1>Please select the persons age 🐣</h1>
 
-            <div onChange={handleOnChange} style={{ fontSize: "2rem" }}>
+            <div style={{ fontSize: "2rem" }}>
               <RadioButton label="Younger than 25 👦" onChange={handleOnChange} value={age} id={"a"} name={selectorName} />
 
               <RadioButton label="Between 25 and 50 👩‍💼" onChange={handleOnChange} value={age} id={"b"} name={selectorName} />

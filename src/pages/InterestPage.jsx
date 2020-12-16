@@ -21,7 +21,7 @@ export default function InterestPage() {
                     <div className="col-md-12">
                         <h1>A little information about the persons interests 🤓</h1>
 
-                        <div onChange={handleOnChange} style={{ fontSize: "2rem" }}>
+                        <div style={{ fontSize: "2rem" }}>
                             <RadioButton label="Fashion 😍" value={value} onChange={handleOnChange} id={"a"} name={selectorName} />
 
                             <RadioButton label="Tech 👩‍💻" value={value} onChange={handleOnChange} id={"b"} name={selectorName} />
